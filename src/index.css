@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(134, 134, 134);
+}
+
+.pics {
+  display: grid;
+  grid-template: 250px 250px / 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px 90px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.grids {
+  width: 250px;
+  height: 250px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: var(--card-width);
+  height: var(--card-height);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  perspective: 2500px;
+}
+
+.cover-image {
+  translate: -125px 4px;
+  width: 250px;
+  height: 250px;
+}
+
+.wrapper {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.card:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+
+.card:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after {
+  height: 120px;
+}
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.card:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.character {
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+  width: 250px;
+  height: 250px;
+}
+
+.card:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -15%, 100px);
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px 35px;
+}
+
+.homebutton {
+  color: white;
+  text-decoration: none;
+}
+
+.songGrids {
+  margin: 50px 500px;
+  display: grid;
+  gap: 30px;
+}
+
+.songGrid {
+  display: grid;
+  grid-template: 240px 0px / 1fr 3fr 1.5fr;
+  background-color: #b4b4b4;
+}
+.keyGrid {
+  display: grid;
+  grid-template: 180px 0px / 1fr 1fr 1fr 1fr 1fr;
+  background-color: #b4b4b4;
+}
+.songImg {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.songGridStats {
+  margin: 20px;
+  display: grid;
+  align-items: center;
+  font-size: 24px;
+}
+span {
+  font-weight: bolder;
+}
+.songGridRating {
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.wordRating {
+  margin-bottom: 10px;
+}
+.ratingBox {
+  border-radius: 100px;
+}

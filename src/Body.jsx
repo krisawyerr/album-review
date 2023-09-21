@@ -3,7 +3,7 @@ export default function Body() {
     return (
         <div className="grid">
             <div className="pics">
-                <a href="LOP.html" className="grids">
+                <a href="/LOP.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\puu7vsw10fb01.png" class="cover-image"/>
@@ -11,7 +11,7 @@ export default function Body() {
                         <img src="\img\ye-removebg-preview (1).png" class="character" />
                     </div>
                 </a>
-                <a href="CMIYGT.html" className="grids">
+                <a href="/CMIYGT.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\tyler-the-creator-call-me-if-you-get-lost-album-cover-interview-lead-image.jpg" class="cover-image" />
@@ -19,7 +19,7 @@ export default function Body() {
                         <img src="\img\Tyler-the-creator-aus-tour-2022-696x442-removebg-preview (1).png" class="character" />
                     </div>
                 </a>
-                <a href="FFF.html" className="grids">
+                <a href="/FFF.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\444.png" class="cover-image" />
@@ -27,7 +27,7 @@ export default function Body() {
                         <img src="\img\jayz-removebg-preview.png" class="character" />
                     </div>
                 </a>
-                <a href="ITT.html" className="grids">
+                <a href="/ITT.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\i told them.jpg" class="cover-image" />
@@ -35,7 +35,7 @@ export default function Body() {
                         <img src="\img\burna-boy-performs-at-roskilde-festival-2023-on-june-29-2023-in-roskilde-denmark-removebg-preview.png" class="character" />
                     </div>
                 </a>
-                <a href="WCPGW.html" className="grids">
+                <a href="/WCPGW.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\What Could Possibly Go Wrong_dominic fike.png" class="cover-image" />
@@ -43,7 +43,7 @@ export default function Body() {
                         <img src="\img\dominic-fike-euphoria-removebg-preview.png" class="character" />
                     </div>
                 </a>
-                <a href="OS.html" className="grids">
+                <a href="/OS.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\offseason.jpg" class="cover-image" />
@@ -51,7 +51,7 @@ export default function Body() {
                         <img src="\img\Pearce-JCole-removebg-preview.png" class="character" />
                     </div>
                 </a>
-                <a href="B.html" className="grids">
+                <a href="/B.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\frank-ocean-blond-compressed-0933daea-f052-40e5-85a4-35e07dac73df.png" class="cover-image" />
@@ -59,7 +59,7 @@ export default function Body() {
                         <img src="\img\Frank-Ocean-removebg-preview.png" class="character" />
                     </div>
                 </a>
-                <a href="LAT.html" className="grids">
+                <a href="/LAT.html" className="grids">
                     <div class="card">
                         <div class="wrapper">
                         <img src="\img\lifes a trip.jpg" class="cover-image" />

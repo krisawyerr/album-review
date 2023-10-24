@@ -15,62 +15,76 @@ export default function Body() {
                         </div>
                     </a>
                 </Link>
-                <a href="/CMIYGT" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\tyler-the-creator-call-me-if-you-get-lost-album-cover-interview-lead-image.jpg" class="cover-image" />
+                <Link to="/CMIYGT">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\tyler-the-creator-call-me-if-you-get-lost-album-cover-interview-lead-image.jpg" class="cover-image" />
+                            </div>
+                            <img src="\img\Tyler-the-creator-aus-tour-2022-696x442-removebg-preview (1).png" class="character" />
                         </div>
-                        <img src="\img\Tyler-the-creator-aus-tour-2022-696x442-removebg-preview (1).png" class="character" />
-                    </div>
-                </a>
-                <a href="/FFF" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\444.png" class="cover-image" />
+                    </a>
+                </Link>
+                <Link to="/FFF">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\444.png" class="cover-image" />
+                            </div>
+                            <img src="\img\jayz-removebg-preview.png" class="character" />
                         </div>
-                        <img src="\img\jayz-removebg-preview.png" class="character" />
-                    </div>
-                </a>
-                <a href="/ITT" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\i told them.jpg" class="cover-image" />
+                    </a>
+                </Link>
+                <Link to="/ITT">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\i told them.jpg" class="cover-image" />
+                            </div>
+                            <img src="\img\burna-boy-performs-at-roskilde-festival-2023-on-june-29-2023-in-roskilde-denmark-removebg-preview.png" class="character" />
                         </div>
-                        <img src="\img\burna-boy-performs-at-roskilde-festival-2023-on-june-29-2023-in-roskilde-denmark-removebg-preview.png" class="character" />
-                    </div>
-                </a>
-                <a href="/WCPGW" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\What Could Possibly Go Wrong_dominic fike.png" class="cover-image" />
+                    </a>
+                </Link>
+                <Link to="/WCPGW">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\What Could Possibly Go Wrong_dominic fike.png" class="cover-image" />
+                            </div>
+                            <img src="\img\dominic-fike-euphoria-removebg-preview.png" class="character" />
                         </div>
-                        <img src="\img\dominic-fike-euphoria-removebg-preview.png" class="character" />
-                    </div>
-                </a>
-                <a href="/OS" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\offseason.jpg" class="cover-image" />
+                    </a>
+                </Link>
+                <Link to="/OS">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\offseason.jpg" class="cover-image" />
+                            </div>
+                            <img src="\img\Pearce-JCole-removebg-preview.png" class="character" />
                         </div>
-                        <img src="\img\Pearce-JCole-removebg-preview.png" class="character" />
-                    </div>
-                </a>
-                <a href="/B" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\frank-ocean-blond-compressed-0933daea-f052-40e5-85a4-35e07dac73df.png" class="cover-image" />
+                    </a>
+                </Link>
+                <Link to="/B">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\frank-ocean-blond-compressed-0933daea-f052-40e5-85a4-35e07dac73df.png" class="cover-image" />
+                            </div>
+                            <img src="\img\Frank-Ocean-removebg-preview.png" class="character" />
                         </div>
-                        <img src="\img\Frank-Ocean-removebg-preview.png" class="character" />
-                    </div>
-                </a>
-                <a href="/LAT" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\lifes a trip.jpg" class="cover-image" />
+                    </a>
+                </Link>
+                <Link to="/LAT">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\lifes a trip.jpg" class="cover-image" />
+                            </div>
+                            <img src="\img\TRIPPIE_REDD_PKG_SHOT_1_00396-e1557829441511-oa8vmlm4hfrzr3u5xb3qvy9k95radplxdj3hlhea28-removebg-preview.png" class="character" />
                         </div>
-                        <img src="\img\TRIPPIE_REDD_PKG_SHOT_1_00396-e1557829441511-oa8vmlm4hfrzr3u5xb3qvy9k95radplxdj3hlhea28-removebg-preview.png" class="character" />
-                    </div>
-                </a>
+                    </a>
+                </Link>
                 <div className="grids">
                     <div class="card">
                         <div class="wrapper">

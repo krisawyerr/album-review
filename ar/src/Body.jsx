@@ -1,16 +1,20 @@
+import { Link } from "react-router-dom"
+
 export default function Body() {
 
     return (
         <div className="grid">
             <div className="pics">
-                <a href="/LOP" className="grids">
-                    <div class="card">
-                        <div class="wrapper">
-                        <img src="\img\puu7vsw10fb01.png" class="cover-image"/>
+                <Link to="/LOP">
+                    <a className="grids">
+                        <div class="card">
+                            <div class="wrapper">
+                            <img src="\img\puu7vsw10fb01.png" class="cover-image"/>
+                            </div>
+                            <img src="\img\ye-removebg-preview (1).png" class="character" />
                         </div>
-                        <img src="\img\ye-removebg-preview (1).png" class="character" />
-                    </div>
-                </a>
+                    </a>
+                </Link>
                 <a href="/CMIYGT" className="grids">
                     <div class="card">
                         <div class="wrapper">

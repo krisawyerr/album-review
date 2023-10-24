@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import FFFApp from '../apps/FFFApp'
+import App from '/src/App.jsx'
 import '/src/index.css'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <FFFApp />
+  <BrowserRouter>
+    <App />
+  </BrowserRouter> 
 )

@@ -1,8 +1,9 @@
 import Navbar from "/src/Navbar.jsx"
 import Body from "/src/Body.jsx"
 
-export default function App() {
+export default function Home() {
   return (
+    
     <div className="wholePage">
       <div>
         <Navbar />
